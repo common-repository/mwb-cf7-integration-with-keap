@@ -1,0 +1,131 @@
+{
+	"OrderTitle":{
+		"id":"order_title",
+		"required":true,
+		"search":true
+	},
+	"OrderDate":{
+		"id":"order_date",
+		"type": "Date",
+		"required":true
+	},
+	"OrderType":{
+		"id":"order_type",
+		"required":false
+	}, 
+	"CompanyName": {
+		"id": "company",
+		"group":"shipping_address",
+		"required":false
+	},
+	"FirstName": {
+		"id": "first_name",
+		"group":"shipping_address",
+		"required":false
+	},
+	"LastName": {
+		"id": "last_name",
+		"group":"shipping_address",
+		"required":false
+	},
+	"MiddleName": {
+		"id": "middle_name",
+		"group":"shipping_address",
+		"required":false
+	},
+	"Phone": {
+		"id": "phone",
+		"group":"shipping_address",
+		"required":false
+	},
+	"StreetAddress": {
+		"group": "shipping_address",
+		"id": "line1",
+		"required":false
+	},
+	"StreetAddress2": {
+		"group": "shipping_address",
+		"id": "line2",
+		"required":false
+	},
+	"City": {
+		"group": "shipping_address",
+		"id": "locality",
+		"required":false
+	},
+	"State": {
+		"group": "shipping_address",
+		"id": "region",
+		"required":false
+	},
+	"Country": {
+		"group": "shipping_address",
+		"id": "country_code",
+		"required":false
+	},
+	"PostalCode": {
+		"group": "shipping_address",
+		"id": "zip_code",
+		"required":false
+	},
+	"ZipFour": {
+		"group": "shipping_address",
+		"id": "zip_four",
+		"required":false
+	},
+	"ItemName": {
+		"group": "xitem",
+		"id": "item_name",
+		"required":false
+	},
+	"ItemSku": {
+		"group": "xitem",
+		"id": "item_sku",
+		"required":false
+	},
+	"ItemQuantity": {
+		"group": "xitem",
+		"id": "item_quantity",
+		"required":false
+	},
+	"ItemPrice": {
+		"group": "xitem",
+		"id": "item_price",
+		"required":false
+	},
+	"ItemDescription": {
+		"group": "xitem",
+		"id": "item_desc",
+		"required":false
+	},
+	"Order_Total": {
+		"id": "vx_order_total",
+		"required":false
+
+	},
+	"Sales_Affiliate_Id": {
+		"id": "sales_affiliate_id",
+		"is_custom":true,
+		"required":false
+	},
+	"Sales_Affiliate_Code": {
+		"id": "sales_affiliate_code",
+		"is_custom":true,
+		"required":false
+	},
+	"Lead_Affiliate_Id": {
+		"id": "lead_affiliate_id",
+		"is_custom":true,
+		"required":false
+	},
+	"Lead_Affiliate_Code": {
+		"id": "lead_affiliate_code",
+		"is_custom":true,
+		"required":false
+	},
+	"Payment_Method_Type": {
+		"id": "vx_payment_method_type",
+		"options":["CREDIT_CARD","CASH","CHECK"],
+		"required":false
+	}
+}

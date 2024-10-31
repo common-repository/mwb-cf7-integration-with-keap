@@ -1,0 +1,72 @@
+{
+    "Title": {
+        "id" : "title",
+        "type": "String",
+        "required": true
+    },
+    "Due Date": {
+        "id" : "due_date",
+        "type" : "Date",
+        "required" : false
+    },
+    "Completed": {
+        "id" : "completed",
+        "type" : "Boolean",
+        "required" : false
+    },
+    "Completion Date": {
+        "id" : "completion_date",
+        "type": "Date",
+        "required" : false
+    },
+    "Email": {
+        "group" : "contact",
+        "id" : "email",
+        "type" : "String",
+        "required":false
+    },
+    "First Name": {
+        "group" : "contact",
+        "id" : "first_name",
+        "type" : "String",
+        "required":false
+    },
+    
+    "Last Name": {
+        "group" : "contact",
+        "id" : "last_name",
+        "type" : "String",
+        "required":false
+    },
+    "Description": {
+        "id" : "description",
+        "type" : "String",
+        "required" : false
+    },
+    "Priority": {
+        "id" : "priority",
+        "type" : "Integer",
+        "required" : false
+    },
+    "Remind Time": {
+        "id" : "remind_time",
+        "type":"Integer",
+        "required" : false,
+        "note" : "Accept Values in minutes before start_date for e.g 5, 10, 15"
+    },
+    "Type": {
+        "id" :" type",
+        "type":"String",
+        "required":false
+    },
+    "URL": {
+        "id":"url",
+        "type":"String",
+        "required":false
+    },
+    "User ID": {
+        "id":"user_id",
+        "type":"String",
+        "required":false
+    }
+  }

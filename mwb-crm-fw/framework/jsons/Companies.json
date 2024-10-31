@@ -1,0 +1,95 @@
+{
+    "Email": {
+        "id": "email_address",
+        "type": "text",
+        "required":true
+    },
+    "Fax": {
+        "group": "fax_number",
+        "id": "number",
+        "type":"String",
+        "required":false
+    },
+    "FaxType": {
+        "group": "fax_number",
+        "id": "type",
+        "type":"String",
+        "required":false
+    },
+    "CompanyName": {
+        "id": "company_name",
+        "type":"String",
+        "required":true,
+        "search":true
+    },
+    "Notes": {
+        "id": "notes",
+        "type":"String",
+        "required":false
+    },
+    "Phone": {
+        "group": "phone_number",
+        "id": "number",
+        "type":"String",
+        "required":false
+    },
+     "PhoneType": {
+        "group": "phone_number",
+        "id": "type",
+        "type":"String",
+        "required":false
+    },
+    "PhoneExt": {
+        "group": "phone_number",
+        "id": "extension",
+        "type":"String",
+        "required":false
+    },
+    "Website": {
+        "id": "website",
+        "type":"String",
+        "required":false
+    },
+    "StreetAddress": {
+        "group": "address",
+        "id": "line1",
+        "type":"String",
+        "required":false
+    },
+    "StreetAddress2": {
+        "group": "address",
+        "id": "line2",
+        "type":"String",
+        "required":false
+    },
+    "City": {
+        "group": "address",
+        "id": "locality",
+        "type":"String",
+        "required":false
+    },
+    "State": {
+        "group": "address",
+        "id": "region",
+        "type":"String",
+        "required":false
+    },
+    "Country": {
+        "group": "address",
+        "id": "country_code",
+        "type":"String",
+        "required":false
+    },
+    "PostalCode": {
+        "group": "address",
+        "id": "zip_code",
+        "type":"String",
+        "required":false
+    },
+    "ZipFour": {
+        "group": "address",
+        "id": "zip_four",
+        "type":"String",
+        "required":false
+    }
+}

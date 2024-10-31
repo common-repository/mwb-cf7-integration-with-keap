@@ -1,0 +1,43 @@
+{
+    "End Date": {
+        "id" : "end_date",
+        "type" : "Date",
+        "required" : true
+    },
+    "Start Date": {
+        "id" : "start_date",
+        "type" : "Date",
+        "required" : true
+    },
+    "Title": {
+        "id" : "title",
+        "type" : "String",
+        "required" : true
+    },
+    "Contact ID": {
+        "id" : "contact_id",
+        "type" : "Integer",
+        "required" : false
+    },
+    "Description": {
+        "id" : "description",
+        "type" : "String",
+        "required" : false
+    },
+    "Location": {
+        "id" : "location",
+        "type" : "String",
+        "required" : false
+    },
+    "Remind Time": {
+        "id" : "remind_time",
+        "type" : "Integer",
+        "required" :false,
+        "note": "Accept Values in minutes before start_date for e.g 5, 10, 15"
+    },
+    "User": {
+        "id" : "user",
+        "type" : "Integer",
+        "required" : false
+    }
+}

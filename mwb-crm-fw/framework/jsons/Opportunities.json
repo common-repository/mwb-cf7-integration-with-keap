@@ -1,0 +1,43 @@
+{
+    "Opportunity Title":{
+        "id":"opportunity_title",
+        "required":true,
+        "type":"String",
+        "search":true
+    },
+    "Opportunity Notes":{
+        "id":"opportunity_notes",
+        "type":"String",
+        "required":false
+    },
+    "Next Action Notes":{
+        "id":"next_action_notes",
+        "type":"String",
+        "required":false
+    },
+    "Next Action Date":{
+        "id":"next_action_date",
+        "type": "Date",
+        "required":false
+    },
+    "Estimated Close Date":{
+        "id":"estimated_close_date",
+        "type": "Date",
+        "required":false
+    },
+    "Projected Revenue High":{
+        "id":"projected_revenue_high",
+        "type":"Number",
+        "required":false
+    },
+    "Projected Revenue Low":{
+        "id":"projected_revenue_low",
+        "type":"Number",
+        "required":false
+    },
+    "Affiliate ID":{
+        "id":"affiliate_id",
+        "type":"Integer",
+        "required":false
+    }
+}

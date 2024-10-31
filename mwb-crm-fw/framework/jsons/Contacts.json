@@ -1,0 +1,424 @@
+{
+	"EmailAddress1": {
+		"group": "email_addresses",
+		"id": "email",
+		"field": "EMAIL1",
+		"type":"String",
+		"required":true,
+		"search":true
+	},
+	"EmailAddress2": {
+		"group": "email_addresses",
+		"id": "email",
+		"field": "EMAIL2",
+		"type":"String",
+		"required":false
+	},
+	"EmailAddress3": {
+		"group": "email_addresses",
+		"id": "email",
+		"field": "EMAIL3",
+		"type":"String",
+		"required":false
+	},
+	"Fax1": {
+		"group": "fax_numbers",
+		"id": "number",
+		"field": "FAX1",
+		"type":"String",
+		"required":false
+	},
+	"Fax1Type": {
+		"group": "fax_numbers",
+		"id": "type",
+		"field": "FAX1",
+		"type":"String",
+		"required":false
+	},
+	"Fax2": {
+		"group": "fax_numbers",
+		"id": "number",
+		"field": "FAX2",
+		"type":"String",
+		"required":false
+	},
+	"Fax2Type": {
+		"group": "fax_numbers",
+		"id": "type",
+		"field": "FAX2",
+		"type":"String",
+		"required":false
+	},
+	"FirstName": {
+		"id": "given_name",
+		"search":true,
+		"type":"String",
+		"required":false
+	},
+	"LastName": {
+		"id": "family_name",
+		"search":true,
+		"type":"String",
+		"required":false
+	},
+	"MiddleName": {
+		"id": "middle_name",
+		"type":"String",
+		"required":false
+	},
+	"Nickname": {
+		"id": "preferred_name",
+		"type":"String",
+		"required":false
+	},
+	"SpouseName": {
+		"id": "spouse_name",
+		"type":"String",
+		"required":false
+	},
+	"Suffix": {
+		"id": "suffix",
+		"type":"String",
+		"required":false
+	},
+	"Prefix": {
+		"id": "prefix",
+		"type":"String",
+		"required":false
+	},
+	"Notes": {
+		"id": "notes",
+		"type":"String",
+		"required":false
+	},
+	"JobTitle": {
+		"id": "job_title",
+		"type":"String",
+		"required":false
+	},
+	"Phone1": {
+		"group": "phone_numbers",
+		"id": "number",
+		"field": "PHONE1",
+		"type":"String",
+		"required":false
+	},
+	"Phone1Ext": {
+		"group": "phone_numbers",
+		"id": "extension",
+		"field": "PHONE1",
+		"type":"String",
+		"required":false
+	},
+	"Phone1Type": {
+		"group": "phone_numbers",
+		"id": "type",
+		"field": "PHONE1",
+		"type":"Picklist",
+		"options":["Work", "Home", "Mobile", "Other"],
+		"required":false
+	},
+	"Phone2": {
+		"group": "phone_numbers",
+		"id": "number",
+		"field": "PHONE2",
+		"type":"String",
+		"required":false
+	},
+	"Phone2Ext": {
+		"group": "phone_numbers",
+		"id": "extension",
+		"field": "PHONE2",
+		"type":"String",
+		"required":false
+	},
+	"Phone2Type": {
+		"group": "phone_numbers",
+		"id": "type",
+		"field": "PHONE2",
+		"type":"Picklist",
+		"options":["Work", "Home", "Mobile", "Other"],
+		"required":false
+	},
+	"Phone3": {
+		"group": "phone_numbers",
+		"id": "number",
+		"field": "PHONE3",
+		"type":"String",
+		"required":false
+	},
+	"Phone3Ext": {
+		"group": "phone_numbers",
+		"id": "extension",
+		"field": "PHONE3",
+		"type":"String",
+		"required":false
+	},
+	"Phone3Type": {
+		"group": "phone_numbers",
+		"id": "type",
+		"field": "PHONE3",
+		"type":"Picklist",
+		"options":["Work", "Home", "Mobile", "Other"],
+		"required":false
+	},
+	"Phone4": {
+		"group": "phone_numbers",
+		"id": "number",
+		"field": "PHONE4",
+		"type":"String",
+		"required":false
+	},
+	"Phone4Ext": {
+		"group": "phone_numbers",
+		"id": "extension",
+		"field": "PHONE4",
+		"type":"String",
+		"required":false
+	},
+	"Phone4Type": {
+		"group": "phone_numbers",
+		"id": "type",
+		"field": "PHONE4",
+		"type":"Picklist",
+		"options":["Work", "Home", "Mobile", "Other"],
+		"required":false
+	},
+	"Phone5": {
+		"group": "phone_numbers",
+		"id": "number",
+		"field": "PHONE5",
+		"type":"String",
+		"required":false
+	},
+	"Phone5Ext": {
+		"group": "phone_numbers",
+		"id": "extension",
+		"field": "PHONE5",
+		"type":"String",
+		"required":false
+	},
+	"Phone5Type": {
+		"group": "phone_numbers",
+		"id": "type",
+		"field": "PHONE5",
+		"type":"Picklist",
+		"options":["Work", "Home", "Mobile", "Other"],
+		"required":false
+	},
+	"Website": {
+		"id": "website",
+		"type":"String",
+		"required":false
+	},
+	"Facebook": {
+		"group": "social_accounts",
+		"id": "name",
+		"field": "Facebook",
+		"type":"String",
+		"required":false
+	},
+	"Twitter": {
+		"group": "social_accounts",
+		"id": "name",
+		"field": "Twitter",
+		"type":"String",
+		"required":false
+	},
+	"Linkedin": {
+		"group": "social_accounts",
+		"id": "name",
+		"field": "Linkedin",
+		"type":"String",
+		"required":false
+	},
+	"Billing-AddressLine1": {
+		"group": "addresses",
+		"id": "line1",
+		"field": "BILLING",
+		"type":"String",
+		"required":false
+	},
+	"Billing-AddressLine2": {
+		"group": "addresses",
+		"id": "line2",
+		"field": "BILLING",
+		"type":"String",
+		"required":false
+	},
+	"Billing-City": {
+		"group": "addresses",
+		"id": "locality",
+		"field": "BILLING",
+		"type":"String",
+		"required":false
+	},
+	"Billing-State": {
+		"group": "addresses",
+		"id": "region",
+		"field": "BILLING",
+		"type":"String",
+		"required":false
+	},
+	"Billing-Country": {
+		"group": "addresses",
+		"id": "country_code",
+		"field": "BILLING",
+		"type":"String",
+		"required":false
+	},
+	"Billing-PostalCode": {
+		"group": "addresses",
+		"id": "zip_code",
+		"field": "BILLING",
+		"type":"String",
+		"required":false
+	},
+	"Billing-ZipFour": {
+		"group": "addresses",
+		"id": "zip_four",
+		"field": "BILLING",
+		"type":"String",
+		"required":false
+	},
+	"Shipping-AddressLine1": {
+		"group": "addresses",
+		"id": "line1",
+		"field": "SHIPPING",
+		"type":"String",
+		"required":false
+	},
+	"Shipping-AddressLine2": {
+		"group": "addresses",
+		"id": "line2",
+		"field": "SHIPPING",
+		"type":"String",
+		"required":false
+	},
+	"Shipping-City": {
+		"group": "addresses",
+		"id": "locality",
+		"field": "SHIPPING",
+		"type":"String",
+		"required":false
+	},
+	"Shipping-State": {
+		"group": "addresses",
+		"id": "region",
+		"field": "SHIPPING",
+		"type":"String",
+		"required":false
+	},
+	"Shipping-Country": {
+		"group": "addresses",
+		"id": "country_code",
+		"field": "SHIPPING",
+		"type":"String",
+		"required":false
+	},
+	"Shipping-PostalCode": {
+		"group": "addresses",
+		"id": "zip_code",
+		"field": "SHIPPING",
+		"type":"String",
+		"required":false
+	},
+	"Shipping-ZipFour": {
+		"group": "addresses",
+		"id": "zip_four",
+		"field": "SHIPPING",
+		"type":"String",
+		"required":false
+	},
+	"Other-AddressLine1": {
+		"group": "addresses",
+		"id": "line1",
+		"field": "OTHER",
+		"type":"String",
+		"required":false
+	},
+	"Other-AddressLine2": {
+		"group": "addresses",
+		"id": "line2",
+		"field": "OTHER",
+		"type":"String",
+		"required":false
+	},
+	"Other-City": {
+		"group": "addresses",
+		"id": "locality",
+		"field": "OTHER",
+		"type":"String",
+		"required":false
+	},
+	"Other-State": {
+		"group": "addresses",
+		"id": "region",
+		"field": "OTHER",
+		"type":"String",
+		"required":false
+	},
+	"Other-Country": {
+		"group": "addresses",
+		"id": "country_code",
+		"field": "OTHER",
+		"type":"String",
+		"required":false
+	},
+	"Other-PostalCode": {
+		"group": "addresses",
+		"id": "zip_code",
+		"field": "OTHER",
+		"type":"String",
+		"required":false
+	},
+	"Other-ZipFour": {
+		"group": "addresses",
+		"id": "zip_four",
+		"field": "OTHER",
+		"type":"String",
+		"required":false
+	},
+	"ContactType": {
+		"id": "contact_type",
+		"type":"String",
+		"required":false,
+		"note" : "Accepted values are lead, client or other"
+	},
+	"TimeZone": {
+		"id": "time_zone",
+		"type":"String",
+		"required":false
+	},
+	"Anniversary": {
+		"id": "anniversary",
+		"type": "Date",
+		"required":false
+	},
+	"Birthday": {
+		"id": "birthday",
+		"type": "Date",
+		"required":false
+	},
+	"Language": {
+		"id": "preferred_locale",
+		"type":"String",
+		"required":false
+	},
+	"SourceType": {
+		"id": "source_type",
+		"type":"String",
+		"options": ["WEBFORM", "LANDINGPAGE", "IMPORT", "MANUAL", "API", "OTHER", "UNKNOWN"],
+		"required":false
+	},
+	"OptinReason": {
+		"id": "opt_in_reason",
+		"type":"String",
+		"required":false
+	},
+	"owner_id": {
+		"id": "owner_id",
+		"type":"Integer",
+		"required":false
+	}
+}
